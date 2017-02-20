@@ -1,0 +1,9 @@
+error:file '/boot/grub/i386-pc/normal.mod' not found
+
+1.用软碟通UltraISO准备好Ubuntu U盘启动（最好和原来一样的系统）。
+2.进入试用的Ubuntu界面，并连接好网络（因为后续工作需要用到网络）。
+3.
+	sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update  
+	sudo apt-get install -y boot-repair && boot-repair  
+4.出现这个Boot Repair界面，点击Recommended repair，过几分钟重启就行了。
+
